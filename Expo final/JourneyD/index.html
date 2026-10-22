@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Journey Miles</title>
+  <link rel="stylesheet" href="EstiloD.css" />
+  <link rel="stylesheet" href="IndexVuelo.html">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="journey.png" alt="Journey Miles Logo" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="IndexD.html">Home</a></li>
+        <li><a href="IndexVuelo.html">Flights</a></li>
+        <li><a href="#hoteles">Hotels</a></li>
+        <li><a href="#nosotros">About Us</a></li>
+      </ul>
+    </nav>
+    <div class="login-btn">
+      <button><i class="fas fa-user"></i> Login</button>
+    </div>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <h1>Journey Miles</h1>
+      <p>Explore, book and travel without limits </p>
+    </div>
+  </section>
+
+    <section class="cards" id="beneficios">
+    <h2>Get to know us</h2>
+    <div class="card-container">
+      <div class="card">
+        <p>Hotels for all tastes and budgets</p>
+      </div>
+      <div class="card">
+        <p>Flights and hotels throughout Central America</p>
+      </div>
+      <div class="card">
+        <p>Offers at the best price</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="destinations">
+  <h2>Travelers' favorite destinations</h2>
+  <div class="destination-grid">
+    <div class="destination-card" style="background-image: url('AntiguaGuatemala.webp');">
+      <span>Antigua Guatemala, Guatemala</span>
+    </div>
+    <div class="destination-card" style="background-image: url('RoatanHonduras.webp');">
+      <span>Roatán, Honduras</span>
+    </div>
+    <div class="destination-card" style="background-image: url('Panamá\ City\,\ Panamá.jpeg');">
+      <span>Panamá City, Panamá</span>
+    </div>
+    <div class="destination-card" style="background-image: url('Monteverde.jpg');">
+      <span>Monteverde, Costa Rica</span>
+    </div>
+    <div class="destination-card" style="background-image: url('Tunco.webp');">
+      <span>El Tunco Beach, El Salvador</span>
+    </div>
+     <div class="destination-card" style="background-image: url('Belize.jpeg');">
+      <span>San Pedro, Belize</span>
+    </div>
+  </div>
+</section>
+
+  <section class="carousel-section">
+    <h2>Stay in unique accommodation</h2>
+    <div class="carousel-container">
+      <button class="carousel-btn left" onclick="scrollCarousel('carousel1', -1)">&#8249;</button>
+      <div class="carousel" id="carousel1">
+        <div class="carruselcards">
+          <img src="HotelReal.jpg" alt="">
+          <h3>Hotel Real InterContinental</h3>
+          <p>Tegucigalpa, Honduras</p>
+          <span>from US$179</span>
+        </div>
+        <div class="carruselcards">
+          <img src="Decameron.jpg" alt="">
+          <h3>Royal Decameron Salinitas</h3>
+          <p>Sonsonate, El Salvador</p>
+          <span>from US$150</span>
+        </div>
+        <div class="carruselcards">
+          <img src="HotelPlazaColón.jpg" alt="">
+          <h3>Hotel Plaza Colón</h3>
+          <p>Granada, Nicaragua</p>
+          <span>from US$94</span>
+        </div>
+      </div>
+      <button class="carousel-btn right" onclick="scrollCarousel('carousel1', 1)">&#8250;</button>
+    </div>
+  </section>
+
+  <section class="carousel-section">
+    <h2>Travel deals under $300</h2>
+    <div class="carousel-container">
+      <button class="carousel-btn left" onclick="scrollCarousel('carousel2', -1)">&#8249;</button>
+      <div class="carousel" id="carousel2">
+        <div class="carruselcards">
+          <img src="Guatemala-City.webp" alt="">
+          <h3>Guatemala City</h3>
+          <p>Guatemala</p>
+          <span>from US$204</span>
+        </div>
+        <div class="carruselcards">
+          <img src="sanpedrosula.jpg" alt="">
+          <h3>San Pedro Sula</h3>
+          <p>Honduras</p>
+          <span>from US$209</span>
+        </div>
+        <div class="carruselcards">
+          <img src="HotelPlazaCOLON.jpg" alt="">
+          <h3>Hotel Plaza Colón</h3>
+          <p>Granada, Nicaragua</p>
+          <span>from US$210</span>
+        </div>
+      </div>
+      <button class="carousel-btn right" onclick="scrollCarousel('carousel2', 1)">&#8250;</button>
+    </div>
+  </section>
+
+
+
+
+
+
+<footer style="background-color: #3c4c8d; color: white; padding: 40px 20px; font-family: sans-serif;">
+  <div style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 30px;">
+    <div style="flex: 1 1 350px;width: 150px;">
+      <h3 style="margin-bottom: 10px; font-size: 1.2rem;">Journey Miles</h3>
+      <p style="margin: 0; line-height: 1.6;color:white;padding-top: 30px;">
+        Your best ally for booking <strong>flights</strong>, <strong>hotels</strong>, and discovering <strong>unforgettable travel packages</strong>.
+      </p>
+    </div>
+    <div style="flex: 1 1 150px;">
+      <h4 style="margin-bottom: 10px; font-size: 1.1rem;">Links</h4>
+      <ul style="list-style: none; padding: 0; margin: 0; line-height: 1.8;">
+        <li><a href="#home" style="color: white; text-decoration: none;">Home</a></li>
+        <li><a href="#hotels" style="color: white; text-decoration: none;">Hotels</a></li>
+        <li><a href="#flights" style="color: white; text-decoration: none;">Flights</a></li>
+        <li><a href="#contact" style="color: white; text-decoration: none;">About us</a></li>
+      </ul>
+    </div>
+    <div style="flex: 1 1 150px;">
+      <h4 style="margin-bottom: 10px; font-size: 1.1rem;">Contact Us</h4>
+      <p style="margin: 5px 0;color:white;">journeymiles@gmail.com</p>
+      <p style="margin: 5px 0;color:white;">San Salvador, El Salvador</p>
+      <!-- Redes sociales -->
+      <div style="margin-top: 15px;">
+        <a href="https://www.facebook.com" class="icon" style="color: white; margin-right: 10px; font-size: 1.2rem;padding-top: 40px;">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com"  class="icon" style="color: white; margin-right: 10px; font-size: 1.2rem;padding-top: 40px;">
+          <i class="fab fa-instagram"></i>
+        <a href="https://www.twitter.com" class="icon" style="color: white; margin-right: 10px; font-size: 1.2rem;">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.tiktok.com" class="icon" style="color: white; font-size: 1.2rem;padding-top: 40px;">
+          <i class="fab fa-tiktok"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <hr style="border: none; border-top: 1px solid rgba(255, 255, 255, 0.2); margin: 30px 0;">
+
+  <div style="text-align: center; font-size: 0.9rem;">
+    <img src="journey.png" style="height: 60px;width: 60px;align-items: center;margin-top: 10px;"><p>2025 <strong>Journey Miles</strong>. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  <script >
+
+function scrollToSection(id) {
+  document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+}
+
+function scrollCarousel(id, direction) {
+  const carousel = document.getElementById(id);
+  const scrollAmount = 220;
+  carousel.scrollBy({
+    left: direction * scrollAmount,
+    behavior: 'smooth'
+  });
+}
+
+
+
+  </script>
+</body>
+</html>
+
